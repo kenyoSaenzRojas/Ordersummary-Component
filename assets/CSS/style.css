@@ -1,5 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+    --color:<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="437"><path fill="#D6E1FF" fill-rule="evenodd" d="M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z"/></svg>;
+}
+
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+}
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    font-family: "Outfit", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--color);
+}
+.principal{
+    width: 452px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: solid #e1dcdc 2px;
+}
+.imagen svg{
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+.segunda{
+    /* text-align: center; */
+    
+}
+.segunda h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    text-align: center;
+}
+.segunda p{
+    margin: auto;
+    width: 250px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: hsl(224, 23%, 55%);
+}
+.sub-flex .plan{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.cambio{
+    color:  hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+
+.flex{
+    border: solid silver 1px;
+    width: 330px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 10px;
+    background-color:  hsla(0, 5%, 76%, 0.197);
+
+}
+article{
+    text-align: center;
+}
+button{
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 70px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color:hsl(245, 77%, 53%);
+    color: hsl(225, 100%, 98%);
+    font-size: 15px;
+    font-weight: 500;
+}
+.sub-flex{
+    margin-top: 10px;
+}
+.sub-flex span{
+   
+    margin-right: 20px;
+}
+.cancelar p{
+    font-weight: 500;
+    font-size: 18px;
+}
+.sub-flex {
+    display: flex;
+    
+}
+/* .sub-flex .plan{
+    
+} */
+.tamano{
+    width: 150px;
+    height: 50px;
+    
+}
+.tamano .plan{
+    margin:0px ;
+    width: 180px;
+    height: 20px;
+    text-align: left;
+    
+}
+.tamano .precio{
+    text-align: left;
+    margin:0px ;
+    width: 180px;
+    height: 20px;
+    
+}
+.sub-flex figure{
+    font-size: 30px;
+    color: purple;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}  
+
+figure{
+    margin-right: 10px;
+    border: solid rgb(203, 212, 223) 1px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(217, 228, 243);
+   
 }
